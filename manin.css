@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    padding: 45px 0;
+    border-bottom: 2px solid #fff;
+    background: #ffff;
+}
+
+.container {
+    max-width: 1085px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__bten {
+    color: #424242;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    gap: 10px;
+}
+
+.hero__bten::before {
+    background-image: url("./images/Vector\ \(6\).png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    content: "";
+    display: block;
+}
+
+.hero {
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+.hero__wrapper {
+    box-sizing: border-box;
+    border: 1px solid #dedbdb;
+    border-radius: 50px;
+    width: 650px;
+    box-sizing: border-box;
+    padding: 60px 56px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.hero__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__text {
+    color: #f0400f;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.hero__title {
+    color: #0e0d5d;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 133px;
+    text-align: center;
+}
+
+.buttons {
+    border-radius: 20px;
+    padding: 8px 11px;
+    margin-top: 30px;
+    background: #f5f5f5;
+
+}
+
+.oquvch {
+    width: 225px;
+    padding: 9px 0;
+    color: #000000;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+    margin-left: 11px;
+}
+
+.ota {
+    color: #000000;
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    width: 225px;
+    padding: 9px 0;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    background-color: #ffffff;
+    margin-left: 42px;
+    transition: 0.5s ease-in-out;
+}
+
+.ota:hover {
+    background-color: transparent;
+    color: #757575;
+}
+
+.oquvch:hover {
+    background-color: transparent;
+    color: #757575;
+}
+
+.hero__input {
+    margin: 39px 0;
+}
+
+.input1 {
+    width: 533px;
+    box-sizing: border-box;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    background: rgb(250, 250, 250);
+    height: 70px;
+    margin-bottom: 39px;
+    padding: 51px;
+    color: rgba(117, 117, 117, 0.7);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.input2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    width: 533px;
+    height: 70px;
+    background: rgb(250, 250, 250);
+    padding: 51px;
+    color: rgba(117, 117, 117, 0.7);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+
+.hero__text::after {
+    background-image: url("./images/Vector\ \(7\).png");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 23px;
+    content: "";
+    display: block;
+}
+
+.a1 {
+    padding: 19px 28px 23px 467px;
+}
+
+/* .ota1{
+    box-sizing: border-box;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    border-radius: 20px;
+    width: 533px;
+    height: 70px;
+    background: rgb(250, 250, 250);
+    padding: 51px;
+    display: flex;
+    align-items: center;
+} */
+.h2__title {
+    color: #000000a3;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin: 0 auto;
+    width: 247px;
+    margin-top: 18px;
+}
+
+.bten {
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    line-height: 29px;
+    background-color: #f0400f;
+    width: 202px;
+    height: 67px;
+    margin-left: 365px;
+    margin-top: 34px;
+}
